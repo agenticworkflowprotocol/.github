@@ -12,6 +12,11 @@ they leave behind.**
 [Viewer](https://editor.agenticworkflowprotocol.org/viewer) ·
 [Discussions](https://github.com/agenticworkflowprotocol/agenticworkflowprotocol.org/discussions)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agenticworkflowprotocol/.github/main/profile/assets/awp-overview-dark.svg">
+  <img src="https://raw.githubusercontent.com/agenticworkflowprotocol/.github/main/profile/assets/awp-overview-light.svg" width="100%" alt="How AWP works: a manifest is written (awp-editor), validated against the JSON Schema and semantic rules per conformance profile (awp-validator), reviewed as a new semantic version with digest and four-eyes approval, run by any AWP runtime that enforces limits before every call with deny by default, and audited with workflow events, decision trace and reproducibility record. Every change is a new, reviewable version. The runtime reaches tools through MCP, other agents through A2A and models of any provider; the manifest references them and AWP does not replace them.">
+</picture>
+
 ## Why AWP exists
 
 Agents no longer only answer questions. They open pull requests, change tickets, send messages and

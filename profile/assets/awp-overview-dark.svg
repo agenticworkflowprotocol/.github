@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="1200" height="540" role="img" aria-labelledby="t d">
+<title id="t">How the Agentic Workflow Protocol works</title>
+<desc id="d">A manifest is written, validated, reviewed as a new version, run by any AWP runtime that enforces budgets, permissions and approvals before every call, and audited; every change is a new version. The runtime reaches tools through MCP, other agents through A2A and models of any provider.</desc>
+<defs><marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9da7b3"/></marker></defs>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #e6edf3; }
+  .heading { font-size: 26px; font-weight: 700; }
+  .sub { font-size: 15px; fill: #9da7b3; }
+  .title { font-size: 17px; font-weight: 700; }
+  .line { font-size: 14px; fill: #9da7b3; }
+  .badge { font-size: 12px; font-weight: 600; fill: #7db7f0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .label { font-size: 13px; fill: #9da7b3; font-style: italic; }
+  .foot { font-size: 14px; fill: #9da7b3; letter-spacing: 0.02em; }
+  .box { fill: #161b22; stroke: #30363d; stroke-width: 1.5; }
+  .runtime { fill: #122338; stroke: #7db7f0; stroke-width: 2; }
+  .proto { fill: #12261a; stroke: #8fd6a2; stroke-width: 1.5; }
+  .note { fill: #2b230e; stroke: #f0c674; stroke-width: 1.2; stroke-dasharray: 5 4; }
+  .arrow { fill: none; stroke: #9da7b3; stroke-width: 2; }
+  .thin { stroke-width: 1.5; }
+  .loop { fill: none; stroke: #7db7f0; stroke-width: 1.8; stroke-dasharray: 6 5; }
+</style>
+<rect width="1200" height="540" fill="#0d1117" rx="16"/>
+<text class="heading" x="600" y="34" text-anchor="middle">AWP: a versioned contract for agentic workflows</text>
+<path class="loop" d="M1064 106 V84 H136 V102" marker-end="url(#head)"/><text class="label" x="600" y="76" text-anchor="middle">every change is a new, reviewable version</text>
+<g><rect class="box" x="36" y="110" width="200" height="150" rx="12"/><text class="title" x="52" y="140">1  Write</text><text class="badge" x="52" y="244">awp-editor</text><text class="line" x="52" y="168">one YAML manifest:</text><text class="line" x="52" y="188">agents, tools, steps,</text><text class="line" x="52" y="208">budgets, permissions</text></g><g><rect class="box" x="268" y="110" width="200" height="150" rx="12"/><text class="title" x="284" y="140">2  Validate</text><text class="badge" x="284" y="244">awp-validator</text><text class="line" x="284" y="168">JSON Schema and</text><text class="line" x="284" y="188">semantic rules per</text><text class="line" x="284" y="208">conformance profile</text></g><g><rect class="box" x="500" y="110" width="200" height="150" rx="12"/><text class="title" x="516" y="140">3  Review</text><text class="line" x="516" y="168">semantic version,</text><text class="line" x="516" y="188">digest, diff and</text><text class="line" x="516" y="208">four-eyes approval</text></g><g><rect class="runtime" x="732" y="110" width="200" height="150" rx="12"/><text class="title" x="748" y="140">4  Run</text><text class="line" x="748" y="168">any AWP runtime</text><text class="line" x="748" y="188">enforces limits before</text><text class="line" x="748" y="208">every call (deny by default)</text></g><g><rect class="box" x="964" y="110" width="200" height="150" rx="12"/><text class="title" x="980" y="140">5  Audit</text><text class="line" x="980" y="168">workflow events,</text><text class="line" x="980" y="188">decision trace,</text><text class="line" x="980" y="208">reproducibility record</text></g>
+<path class="arrow" d="M240 185 H262" marker-end="url(#head)"/><path class="arrow" d="M472 185 H494" marker-end="url(#head)"/><path class="arrow" d="M704 185 H726" marker-end="url(#head)"/><path class="arrow" d="M936 185 H958" marker-end="url(#head)"/>
+<path class="arrow thin" d="M832 264 V296 H618 V342" marker-end="url(#head)"/><path class="arrow thin" d="M832 264 V296 H832 V342" marker-end="url(#head)"/><path class="arrow thin" d="M832 264 V296 H1046 V342" marker-end="url(#head)"/>
+<text class="label" x="832" y="458" text-anchor="middle">referenced by the manifest – AWP does not replace them</text>
+<g><rect class="proto" x="523" y="348" width="190" height="84" rx="12"/><text class="title" x="539" y="378">MCP</text><text class="line" x="539" y="406">agents ↔ tools</text></g><g><rect class="proto" x="737" y="348" width="190" height="84" rx="12"/><text class="title" x="753" y="378">A2A</text><text class="line" x="753" y="406">agent ↔ agent</text></g><g><rect class="proto" x="951" y="348" width="190" height="84" rx="12"/><text class="title" x="967" y="378">Models</text><text class="line" x="967" y="406">any provider</text></g>
+<g><rect class="note" x="36" y="290" width="439" height="162" rx="12"/><text class="title" x="52" y="320">One manifest answers</text><text class="line" x="52" y="346">· Which agents, models and tools?</text><text class="line" x="52" y="368">· Which steps, in which order?</text><text class="line" x="52" y="390">· What may run, what needs approval?</text><text class="line" x="52" y="412">· How much may it cost and take?</text><text class="line" x="52" y="434">· What happened in a run?</text></g>
+<text class="foot" x="600" y="518" text-anchor="middle">Declarative · versioned · schema first · fail closed · extensible with x- fields · vendor-neutral</text>
+</svg>
