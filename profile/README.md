@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agenticworkflowprotocol/agenticworkflowprotocol.org/main/site/public/brand/awp-wordmark-stacked-dark.svg">
+    <img src="https://raw.githubusercontent.com/agenticworkflowprotocol/agenticworkflowprotocol.org/main/site/public/brand/awp-wordmark-stacked-light.svg" alt="AWP – Agentic Workflow Protocol" width="360">
+  </picture>
+</p>
+
 # Agentic Workflow Protocol (AWP)
 
 **An open, versioned contract for agentic workflows: what agents do, what they may do, and what
