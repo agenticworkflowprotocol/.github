@@ -116,11 +116,16 @@ graph with its permissions and approvals.
 
 ## Projects
 
-| Repository | What it is |
-| --- | --- |
-| [agenticworkflowprotocol.org](https://github.com/agenticworkflowprotocol/agenticworkflowprotocol.org) | The specification, JSON Schema, conformance suite, enhancement proposals and the website |
-| [awp-validator](https://github.com/agenticworkflowprotocol/awp-validator) | Reference validator: `awp validate` CLI, Node.js and browser library, [online validator](https://validator.agenticworkflowprotocol.org) |
-| [awp-editor](https://github.com/agenticworkflowprotocol/awp-editor) | Viewer and editor as Web Components (`<awp-viewer>`, `<awp-editor>`), embeddable like Swagger UI; [online editor](https://editor.agenticworkflowprotocol.org) |
+| Repository | What it is | Package |
+| --- | --- | --- |
+| [agenticworkflowprotocol.org](https://github.com/agenticworkflowprotocol/agenticworkflowprotocol.org) | The specification, JSON Schema, conformance suite, enhancement proposals and the website | – |
+| [awp-validator](https://github.com/agenticworkflowprotocol/awp-validator) | Reference validator: `awp validate` CLI, Node.js and browser library, [online validator](https://validator.agenticworkflowprotocol.org) | [![npm](https://img.shields.io/npm/v/@agenticworkflowprotocol/validator?label=%40agenticworkflowprotocol%2Fvalidator)](https://www.npmjs.com/package/@agenticworkflowprotocol/validator) |
+| [awp-editor](https://github.com/agenticworkflowprotocol/awp-editor) | Viewer and editor as Web Components (`<awp-viewer>`, `<awp-editor>`), embeddable like Swagger UI; [online editor](https://editor.agenticworkflowprotocol.org) | [![npm](https://img.shields.io/npm/v/@agenticworkflowprotocol/editor?label=%40agenticworkflowprotocol%2Feditor)](https://www.npmjs.com/package/@agenticworkflowprotocol/editor) |
+
+```sh
+npm install @agenticworkflowprotocol/validator   # awp validate, Node.js and browser library
+npm install @agenticworkflowprotocol/editor      # <awp-viewer> and <awp-editor>
+```
 
 ## Implement AWP
 
